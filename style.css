@@ -1,7 +1,7 @@
 :root {
     --bg: #e6e8e6;
     --border: #ccc;
-    --text: #191919;
+    --text: #575454;
     --accent: #3a6ea5;
 }
 
@@ -88,6 +88,7 @@ nav a {
 
 .card {
     text-align: center;
+   
 }
 
 .img {
@@ -139,4 +140,99 @@ nav a {
 .footer-flex {
     display: flex;
     justify-content: space-between;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 380px;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.search-bar input {
+    padding: 7px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.old {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.new {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+.search-bar{
+    margin-top: 25px;
+}
+
+nav a{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://cdn.freebiesupply.com/logos/thumbs/2x/adidas-4-logo.png");
+
+    background-size: cover;
+    background-position: center;
 }
